@@ -1,0 +1,29 @@
+.header_section {
+    margin-top: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header_text {
+
+}
+.main {
+}
+.main_text {
+
+}
+.main_offer {
+
+}
+.nav {
+
+}
+.nav_item {
+
+}
+body{
+    width: 1438px;
+    height: 769px;
+    background-image: url("/img/bg.png");
+    background-repeat: no-repeat;
+}
