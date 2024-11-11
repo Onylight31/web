@@ -1,13 +1,18 @@
 .header_section {
+    position: absolute;
     width: 101.62px;
     height: 23px;
     top: 40px;
     left: 669px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
 .main {
 }
 .main_text {
-    margin-top: 280px;
+    margin-top: 380px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -49,6 +54,6 @@
 body{
     width: 1438px;
     height: 769px;
-    background-image: url("bg.png");
+    background-image: url("/img/bg.png");
     background-repeat: no-repeat;
 }
