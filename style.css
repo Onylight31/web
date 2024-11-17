@@ -51,7 +51,7 @@
     letter-spacing: 4px;
     text-align: center;
 }
-body{
+.body{
     width: 1438px;
     height: 769px;
     background-image: url("bg.png");
