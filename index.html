@@ -11,15 +11,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header_section">
-        <img src="company-logo-white.png"><img>
+    <header>
+        <section class="header_section">
+            <img src="company-logo-white.png"><img>
+        </section>
+        <section class="main">
+            <h1 class="main_text">PARTNER WITH KONSTUCT</h1>
+            <h2 class="main_offer">An award-winning construction management firm</h2>
+        </section>
+        <section class="scroll">
+            <li class="scroll_item">SCROLL DOWN</li>
+        </section>
     </header>
-    <section class="main">
-        <h1 class="main_text">PARTNER WITH KONSTUCT</h1>
-        <h2 class="main_offer">An award-winning construction management firm</h2>
+    <main>
+    <section class="navbar">
+        <div class="logo_section">
+            <img src="company-logo-black.png"><img>
+        </div>
+        <div class="section__list">
+            <ul class="section_listnav">
+                <a class="section__listnavitem">HOME</a>
+                <a class="section__listnavitem">ABOUT</a>
+                <a class="section__listnavitem">SERVICES</a>
+                <a class="section__listnavitem">WORK</a>
+                <a class="section__listnavitem">CONTACT</a>
+            </ul>
+        </div>
     </section>
-    <section class="nav">
-        <li class="nav_item">SCROLL DOWN</li>
+    <section class="newsletter">
+        <div class="newstext_section">
+            <h1 class="news_text">Newsletter Signup</h1>
+        </div>
+        <form class="newsform">
+            <p class="section_newsletterformitem"><label>Name <em class="star">*</em></label><input type="text" id="name" required placeholder="Enter name" pattern="[A-Za-zА-Яа-яЁё\s]+" title="The name must contain only letters." class="form-input"></p>
+            <p class="section_newsletterformitem"><label>E-mail <em class="star">*</em></label><input type="email" id="email" required placeholder="Enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address." class="form-input"></p>
+            <p class="section_newsletterformbutton"><input type="submit" value="SIGNUP"></p>
+           </form>
     </section>
+</main>
 </body>
 </html>
