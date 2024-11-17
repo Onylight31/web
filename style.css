@@ -54,6 +54,6 @@
 body{
     width: 1438px;
     height: 769px;
-    background-image: url("bg.png");
+    background-image: ("bg.png");
     background-repeat: no-repeat;
 }
