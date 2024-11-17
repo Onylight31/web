@@ -1,7 +1,7 @@
 header{
     width: 1440px;
     height: 768px;
-    background-image: url("bg.png");
+    background-image: ("bg.png");
     background-repeat: no-repeat;
 }
 .header_section {
