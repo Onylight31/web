@@ -87,7 +87,7 @@ header{
     border: none;
 }
 .theme_button:hover{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .section__list{
     position: relative;
