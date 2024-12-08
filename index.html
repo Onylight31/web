@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Construct</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=stylelight.css id="theme-link">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -26,9 +26,9 @@
     </header>
     <main>
     <section class="navbar">
-        <div class="logo_section">
-            <img src="company-logo-black.png"><img>
-        </div>
+        
+        <div class="logo_section"> </div>
+        <button class="theme_button" id="theme_button">CHANGE THEME</button>
         <div class="section__list">
             <ul class="section_listnav">
                 <a class="section__listnavitem">HOME</a>
@@ -40,6 +40,7 @@
         </div>
     </section>
     <section class="about">
+        <div class="darktheme"> </div>
         <h1 class="about_headertext">OUR STORY</h1>
         <hr class="horizontal-line1">
         <h2 class="about_maintext">Founded in 2011 by John Mathew Smith,<span class="about_maintextspan"> Konstruct </span>has become the number one construction management firm</h2>
@@ -81,7 +82,6 @@
         </div>
     </section>
     <section class="get-in-touch">
-        <img src="bg2.png"></img>
         <h1 class="get-in-touch_maintext">Want to build something amazing?</h1>
         <button class="get-in-touch_button">GET IN TOUCH</button>
     </section>
@@ -90,8 +90,8 @@
             <h1 class="news_text">Newsletter Signup</h1>
         </div>
         <form class="newsform">
-            <p class="section_newsletterformitem"><label>Name <em class="star">*</em></label><input type="text" id="name" required placeholder="Enter name" pattern="[A-Za-zА-Яа-яЁё\s]+" title="The name must contain only letters." class="form-input" autocomplete="off"></p>
-            <p class="section_newsletterformitem"><label>E-mail <em class="star">*</em></label><input type="email" id="email" required placeholder="Enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address." class="form-input" autocomplete="off"></p>
+            <p class="section_newsletterformitem"><label>Name <em class="star">*</em></label><input type="text" id="name" required placeholder="Enter name" pattern="[A-Za-zА-Яа-яЁё\s]+" title="The name must contain only letters." class="form-input"></p>
+            <p class="section_newsletterformitem"><label>E-mail <em class="star">*</em></label><input type="email" id="email" required placeholder="Enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address." class="form-input"></p>
             <p class="section_newsletterformbutton"><input type="submit" value="SIGNUP"></p>
            </form>
     </section>
@@ -99,5 +99,6 @@
         <h1 class="bottom_text">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</h1>
     </section>
 </main>
+<script src="theme.js"></script>
 </body>
 </html>
