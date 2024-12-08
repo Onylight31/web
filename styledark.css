@@ -13,8 +13,6 @@ header{
     justify-content: center;
     text-align: center;
 }
-.main {
-}
 .main_text {
     position: absolute;
     top: 330px;
@@ -69,12 +67,33 @@ header{
     left: 251px;
     display: flex;
     flex-direction: row;
+    background-image: url(company-logo-white.png);
+    background-size: 100%;
+}
+.theme_button {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    top: -5px;
+    left: 1270px;
+    background-color:#00A4E5;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.theme_button:hover{
+    border: 2px solid black;
 }
 .section__list{
     position: relative;
     width: 308px;
     height: 16px;
-    top: -5px;
+    top: -45px;
     left: 782px;
 }
 .section_listnav{
@@ -90,18 +109,23 @@ header{
     text-align: center;
 }
 .section__listnavitem{
-    color: #48555B;
+    color: #D1D5D6;
 }
 .section__listnavitem:hover{
     color: #00A4E5;
 }
 .navbar{
-    width: 1442px;
+    width: 1440px;
     height: 65px;
     top: 768px;
-    background-color: #FFFFFF;
-    border: 1px solid #E6E6E6;
-    left: -1px;
+}
+.darktheme{
+    position: absolute;
+    width: 1440px;
+    height: 1120px;
+    top: 768px;
+    background-color: #171819;
+    z-index: -1;
 }
 .about{
     width: 941px;
@@ -121,7 +145,7 @@ header{
     line-height: 21px;
     letter-spacing: 2px;
     text-align: center;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .horizontal-line1{
     position: relative;
@@ -142,7 +166,7 @@ header{
     font-weight: 700;
     line-height: 23px;
     text-align: left;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .about_maintextspan{
     font-family: "Open Sans";
@@ -162,7 +186,7 @@ header{
     font-weight: 600;
     line-height: 23px;
     text-align: left;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .about_paintings{
     position: relative;
@@ -225,7 +249,7 @@ header{
     line-height: 21px;
     letter-spacing: 2px;
     text-align: left;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .horizontal-line2{
     position: relative;
@@ -246,7 +270,7 @@ header{
     font-weight: 540;
     line-height: 19px;
     text-align: left;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .services_button{
     position: relative;
@@ -312,7 +336,7 @@ header{
     font-weight: 700;
     line-height: 24px;
     text-align: left;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .services_containermainoffer{
     position: relative;
@@ -325,31 +349,32 @@ header{
     font-weight: 500;
     line-height: 23px;
     text-align: left;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .get-in-touch{
     width: 1440px;
     height: 499px;
     margin-top: 115px;
+    background-image: url(bg3.jpg);
 }
 .get-in-touch_maintext{
     position: relative;
     width: 350px;
     height: 72px;
-    top: -400px;
+    top: 100px;
     left: 545px;
     font-family: "Open Sans";
     font-size: 30px;
     font-weight: 730;
     line-height: 36px;
     text-align: center;
-    color: #48555B;
+    color: #D1D5D6;
 }
 .get-in-touch_button{
     position: relative;
     width: 150px;
     height: 40px;
-    top: -400px;
+    top: 100px;
     left: 645px;
     font-family: "Open Sans";
     font-size: 13px;
