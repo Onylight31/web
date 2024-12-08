@@ -289,7 +289,7 @@ header{
     border: none;
 }
 .services_button:hover{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .services_container1{
     position: relative;
@@ -387,7 +387,7 @@ header{
     border: none;
 }
 .get-in-touch_button:hover{
-    border: 2px solid black;
+    border: 2px solid white;
 }
 .newsletter{
     width: 1440px;
