@@ -1,28 +1,18 @@
 var btn = document.getElementById("theme_button");
 var link = document.getElementById("theme-link");
 
-btn.addEventListener("click", function () { ChangeTheme(); });
-
 function ChangeTheme()
 {
-    let lightTheme = "stylelight.css";
-    let darkTheme = "styledark.css";
-
     var currTheme = link.getAttribute("href");
-    var theme = "";
 
-    if(currTheme == lightTheme)
+    if(currTheme == "stylelight.css")
     {
-   	 currTheme = darkTheme;
-   	 theme = "dark";
+        link.setAttribute("href", "styledark.css");
     }
-    else
+    else if(currTheme == "styledark.css")
     {    
-   	 currTheme = lightTheme;
-   	 theme = "light";
+        link.setAttribute("href", "stylelight.css");
     }
-
-    link.setAttribute("href", currTheme);
-
-    Save(theme);
 }
+
+btn.addEventListener("click", function () { ChangeTheme(); });
