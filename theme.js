@@ -3,13 +3,11 @@ var link = document.getElementById("theme-link");
 
 function ChangeTheme()
 {
-    var currTheme = link.getAttribute("href");
-
-    if(currTheme == "stylelight.css")
+    if(link.getAttribute("href") == "stylelight.css")
     {
         link.setAttribute("href", "styledark.css");
     }
-    else if(currTheme == "styledark.css")
+    else if(link.getAttribute("href") == "styledark.css")
     {    
         link.setAttribute("href", "stylelight.css");
     }
